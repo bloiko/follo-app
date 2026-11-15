@@ -4,7 +4,7 @@
 <header><img src="icon.png" alt=""><a href="./">Follo</a><nav><a href="#en">English</a><a href="support.html">Підтримка</a></nav></header>
 
 <h1>Політика конфіденційності</h1>
-<p class="muted">Діє з 28 жовтня 2026 року, оновлено 15 листопада 2026 року. Розробник: Богдан Лойко (фізична особа), контакт: bohdan.loiko@gmail.com.</p>
+<p class="muted">Діє з 16 листопада 2026 року (попередня редакція — 28 жовтня 2026). Розробник: Богдан Лойко (фізична особа), контакт: bohdan.loiko@gmail.com.</p>
 
 <h2>Коротко</h2>
 <p>Follo не має власних серверів і не збирає ваших даних. Усе, що застосунок зберігає, лежить лише на вашому iPhone. Відео йде напряму з телефона у ваш YouTube-канал.</p>
@@ -12,29 +12,36 @@
 <h2>Підключення YouTube</h2>
 <p>Follo використовує <strong>YouTube API Services</strong>. Коли ви підключаєте YouTube, Google видає застосунку токен доступу до вашого каналу. Follo використовує його лише щоб:</p>
 <ul>
-<li>створювати, запускати й завершувати трансляції на вашому каналі та отримувати для них ключ потоку;</li>
+<li>створювати, запускати й завершувати трансляції на вашому каналі, ставити їм назву й приватність, які ви вибрали, та отримувати для них ключ потоку;</li>
 <li>перевіряти стан трансляції (чи бачить YouTube відео);</li>
 <li>ставити заставку трансляції, яку Follo малює з назв та емблем команд;</li>
-<li>показувати назву й аватарку вашого каналу в застосунку та список ваших запланованих трансляцій.</li>
+<li>показувати назву й аватарку вашого каналу в застосунку та список ваших запланованих трансляцій;</li>
+<li>видаляти трансляції, які Follo сам створив для матчу і які так і не вийшли в ефір.</li>
 </ul>
 <p>Токен зберігається лише на вашому телефоні, у захищеному сховищі iOS (Keychain), і нікуди не передається, крім Google. Назва й аватарка каналу зберігаються на телефоні, щоб показувати їх без інтернету.</p>
 <p>Користуючись цими функціями, ви погоджуєтесь з <a href="https://www.youtube.com/t/terms">Умовами використання YouTube</a>. Як Google обробляє дані, описано в <a href="https://policies.google.com/privacy">Політиці конфіденційності Google</a>.</p>
 
 <h2>Як відкликати доступ і видалити дані</h2>
 <ul>
-<li>У Follo: торкніться назви каналу на головному екрані → «Відключити YouTube». Follo відкликає токен у Google і стирає його та дані каналу з телефона.</li>
+<li>У Follo: торкніться назви каналу на головному екрані → «Відключити YouTube». Follo відкликає токен у Google і стирає з телефона його, дані каналу й підготовлену трансляцію.</li>
 <li>У Google: <a href="https://security.google.com/settings/security/permissions">сторінка дозволів сторонніх застосунків</a> → Follo → «Видалити доступ».</li>
 <li>Видалення Follo з телефона стирає все, що застосунок зберігав.</li>
+</ul>
+
+<h2>Дані Google: зберігання, передача, обмеження</h2>
+<ul>
+<li><strong>Що Follo отримує від Google:</strong> токен доступу, назву й аватарку каналу, а також ID, назви, стан і налаштування трансляцій, які Follo створює чи показує вам.</li>
+<li><strong>Де зберігається:</strong> лише на вашому iPhone. Токен — у Keychain; назва й аватарка каналу оновлюються з Google під час кожного запуску; ID і посилання підготовленої трансляції зберігаються, доки трансляція не завершиться або ви не відключите YouTube. Розробник цих даних не отримує: у Follo немає серверів.</li>
+<li><strong>Кому передається:</strong> нікому, крім самого Google (YouTube API). Дані не продаються, не використовуються для реклами й не використовуються для навчання моделей штучного інтелекту.</li>
+<li><strong>Видалення:</strong> «Відключити YouTube» або видалення застосунку стирає ці дані з телефона одразу. Якщо ви відкликали доступ на сторінці Google, Follo стирає токен і дані каналу, щойно наступного разу спробує оновити доступ (під час запуску чи роботи); посилання на вже підготовлений матч лишається, щоб ви могли ввійти знову до початку, — приберіть його кнопкою «Прибрати посилання» або «Відключити YouTube». Самі трансляції лишаються на вашому YouTube-каналі; видалити їх можна в YouTube Studio.</li>
+<li>Використання Follo інформації, отриманої з API Google, відповідає <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, зокрема вимогам Limited Use.</li>
 </ul>
 
 <h2>Камера, мікрофон, фото, файли</h2>
 <p>Камера й мікрофон потрібні для трансляції; відео й звук ідуть лише у вашу трансляцію YouTube і, якщо ви ввімкнули «Запис на телефон», у файл на вашому телефоні. Доступ до фото — лише щоб ви могли вибрати емблему клубу; вибрані зображення зберігаються в застосунку на телефоні. Файли ліг (.follo) та відео-переходи зберігаються на телефоні.</p>
 
-<h2>Ліги й команди</h2>
-<p>Ліги, команди й емблеми, які ви створюєте, зберігаються лише на телефоні. Лігу можна передати іншій людині файлом .follo (через Telegram, AirDrop тощо) — це робите ви самі. Follo не завантажує ліг з інтернету і сам нікуди їх не надсилає.</p>
-
 <h2>Журнал роботи (лог)</h2>
-<p>Follo пише технічний журнал трансляції (якість, розриви, нагрів) у файл на телефоні. Він не містить токенів чи паролів і нікуди не надсилається сам. Ви можете переслати його розробнику вручну: Налаштування → «Надіслати лог розробнику».</p>
+<p>Follo пише технічний журнал трансляції (якість, розриви, нагрів) у файл на телефоні. Він не містить токенів чи паролів, але містить назви й ID ваших трансляцій. Сам він нікуди не надсилається. Ви можете переслати його розробнику вручну: Налаштування → «Надіслати лог розробнику».</p>
 
 <h2>Аналітика, реклама, діти</h2>
 <p>Follo не містить аналітики, реклами, трекерів чи сторонніх SDK. Застосунок не призначений для самостійного використання дітьми; відповідальність за згоду людей, яких знімають (зокрема батьків неповнолітніх гравців), лежить на організаторі трансляції.</p>
@@ -45,7 +52,7 @@
 <hr id="en">
 
 <h1>Privacy Policy</h1>
-<p class="muted">Effective 28 October 2026, updated 15 November 2026. Developer: Bohdan Loiko (individual), contact: bohdan.loiko@gmail.com.</p>
+<p class="muted">Effective 16 November 2026 (previous version: 28 October 2026). Developer: Bohdan Loiko (individual), contact: bohdan.loiko@gmail.com.</p>
 
 <h2>In short</h2>
 <p>Follo has no servers of its own and collects no data about you. Everything the app stores stays on your iPhone. Video goes straight from the phone to your YouTube channel.</p>
@@ -53,29 +60,36 @@
 <h2>Connecting YouTube</h2>
 <p>Follo uses <strong>YouTube API Services</strong>. When you connect YouTube, Google gives the app an access token for your channel. Follo uses it only to:</p>
 <ul>
-<li>create, start and end broadcasts on your channel and get their stream key;</li>
+<li>create, start and end broadcasts on your channel, set the title and privacy you chose, and get their stream key;</li>
 <li>check the broadcast's status (whether YouTube receives video);</li>
 <li>set the broadcast's thumbnail, drawn by Follo from the team names and crests;</li>
-<li>show your channel's name and picture in the app and list your scheduled broadcasts.</li>
+<li>show your channel's name and picture in the app and list your scheduled broadcasts;</li>
+<li>delete broadcasts that Follo itself created for a match and that never went live.</li>
 </ul>
 <p>The token is stored only on your phone, in the iOS Keychain, and is sent nowhere but to Google. The channel's name and picture are kept on the phone so they show offline.</p>
 <p>By using these features you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. How Google handles data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
 <h2>Revoking access and deleting data</h2>
 <ul>
-<li>In Follo: tap the channel name on the home screen → “Disconnect YouTube”. Follo revokes the token at Google and erases it and the channel data from the phone.</li>
+<li>In Follo: tap the channel name on the home screen → “Disconnect YouTube”. Follo revokes the token at Google and erases it, the channel data and the prepared broadcast from the phone.</li>
 <li>At Google: <a href="https://security.google.com/settings/security/permissions">third-party app permissions</a> → Follo → “Remove access”.</li>
 <li>Deleting Follo from the phone erases everything the app stored.</li>
+</ul>
+
+<h2>Google user data: storage, sharing, limits</h2>
+<ul>
+<li><strong>What Follo receives from Google:</strong> an access token, your channel's name and picture, and the IDs, titles, status and settings of the broadcasts Follo creates or shows you.</li>
+<li><strong>Where it is stored:</strong> only on your iPhone. The token is in the iOS Keychain; the channel's name and picture are refreshed from Google at every launch; the ID and link of a prepared broadcast are kept until that broadcast ends or you disconnect YouTube. The developer never receives this data: Follo has no servers.</li>
+<li><strong>Who it is shared with:</strong> nobody but Google itself (the YouTube API). The data is not sold, not used for advertising and not used to train artificial intelligence or machine learning models.</li>
+<li><strong>Deletion:</strong> “Disconnect YouTube” or deleting the app erases this data from the phone at once. If you remove access on Google's page instead, Follo erases the token and channel data the next time it tries to renew access (at launch or while in use); the link of an already prepared match stays so you can sign in again before kick-off — remove it with “Remove the link” or “Disconnect YouTube”. The broadcasts themselves stay on your YouTube channel; you can delete them in YouTube Studio.</li>
+<li>Follo's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
 </ul>
 
 <h2>Camera, microphone, photos, files</h2>
 <p>The camera and microphone are used for the broadcast; video and sound go only to your YouTube broadcast and, if you turned on “Recording on the phone”, to a file on your phone. Photo access is used only to let you pick a club crest; chosen images are stored in the app on the phone. League files (.follo) and video transitions are stored on the phone.</p>
 
-<h2>Leagues and teams</h2>
-<p>Leagues, teams and crests you create are stored only on the phone. You can pass a league to someone else as a .follo file (via Telegram, AirDrop and so on) — you do that yourself. Follo does not download leagues from the web and sends them nowhere on its own.</p>
-
 <h2>Log</h2>
-<p>Follo writes a technical log of the broadcast (quality, drops, heat) to a file on the phone. It contains no tokens or passwords and is never sent on its own. You can forward it to the developer yourself: Settings → “Send the log to the developer”.</p>
+<p>Follo writes a technical log of the broadcast (quality, drops, heat) to a file on the phone. It contains no tokens or passwords, but it does contain the titles and IDs of your broadcasts. It is never sent on its own. You can forward it to the developer yourself: Settings → “Send the log to the developer”.</p>
 
 <h2>Analytics, ads, children</h2>
 <p>Follo contains no analytics, ads, trackers or third-party SDKs. The app is not intended for use by children on their own; the broadcast's organiser is responsible for the consent of the people filmed, including the parents of minor players.</p>
@@ -83,5 +97,5 @@
 <h2>Changes</h2>
 <p>Changes to this policy will be posted on this page with a new date at the top. Questions: bohdan.loiko@gmail.com.</p>
 
-<footer>© 2026 Follo · <a href="./">Home</a> · <a href="support.html">Support</a></footer>
+<footer>© 2026 Follo · <a href="./">Home</a> · <a href="terms.html">Terms of Use</a> · <a href="support.html">Support</a></footer>
 </main></body></html>
